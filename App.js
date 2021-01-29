@@ -1,6 +1,11 @@
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import BottomNavigation from './app/Navigations/BottomNavigation';
 
 export default function App() {
-  return <BottomNavigation />;
+  return (
+    <NavigationContainer>
+      <BottomNavigation />
+    </NavigationContainer>
+  );
 }
