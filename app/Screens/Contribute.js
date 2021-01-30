@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
+import {View, Text, TouchableOpacity, Linking} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 export default function Contribute({screen}) {
@@ -51,7 +51,7 @@ export default function Contribute({screen}) {
             alignItems: 'center',
           }}
           onPress={() => {
-            alert('github');
+            Linking.openURL('https://github.com/ilies-space/TravelAppUi');
           }}>
           <MaterialCommunityIcons name="github" color={'black'} size={80} />
 
