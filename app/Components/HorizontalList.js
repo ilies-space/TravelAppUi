@@ -22,7 +22,10 @@ export default function HorizontalList() {
     },
   ];
   return (
-    <View>
+    <View
+      style={{
+        marginVertical: 10,
+      }}>
       <FlatList
         horizontal
         keyExtractor={(item) => item.title}

@@ -5,6 +5,7 @@ import HorizontalList from '../Components/HorizontalList';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import SearchBox from '../Components/SearchBox';
 import Header from '../Components/Header';
+import FeaturedPlaces from '../Components/FeaturedPlaces';
 
 export default function Explore() {
   return (
@@ -17,13 +18,9 @@ export default function Explore() {
       {/* ----------------------------- */}
       <SearchBox />
       {/* ----------------------------- */}
-      <View
-        style={{
-          marginVertical: 5,
-        }}
-      />
-      {/* ----------------------------- */}
       <HorizontalList />
+      {/* ----------------------------- */}
+      <FeaturedPlaces />
     </View>
   );
 }
