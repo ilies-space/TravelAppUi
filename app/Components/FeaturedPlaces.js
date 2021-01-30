@@ -1,6 +1,7 @@
 import React from 'react';
 import {Text, View, Image} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
+import Evaluation from './Evaluation';
 
 export default function FeaturedPlaces() {
   const listOfCountries = [
@@ -102,7 +103,9 @@ export default function FeaturedPlaces() {
                     }}>
                     {item.title}
                   </Text>
-                  <Text>evalution</Text>
+                  <View>
+                    <Evaluation rating={4} />
+                  </View>
                 </View>
               </View>
             );
