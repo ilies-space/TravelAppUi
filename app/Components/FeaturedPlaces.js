@@ -6,6 +6,10 @@ import Evaluation from './Evaluation';
 export default function FeaturedPlaces() {
   const listOfCountries = [
     {
+      title: 'Algeria',
+      imgPath: require('../assets/algeria.jpg'),
+    },
+    {
       title: 'Norway',
       imgPath: require('../assets/norway.jpg'),
     },
@@ -16,11 +20,6 @@ export default function FeaturedPlaces() {
     {
       title: 'Maldive',
       imgPath: require('../assets/maldive.jpg'),
-    },
-
-    {
-      title: 'Algeria',
-      imgPath: require('../assets/algeria.jpg'),
     },
   ];
   return (

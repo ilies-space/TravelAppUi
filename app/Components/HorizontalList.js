@@ -5,10 +5,6 @@ import {FlatList} from 'react-native-gesture-handler';
 export default function HorizontalList() {
   const listOfCountries = [
     {
-      title: 'Algeria',
-      imgPath: require('../assets/algeria.jpg'),
-    },
-    {
       title: 'Asia',
       imgPath: require('../assets/Asia.jpg'),
     },
@@ -19,6 +15,10 @@ export default function HorizontalList() {
     {
       title: 'antarctica',
       imgPath: require('../assets/antarctica.jpg'),
+    },
+    {
+      title: 'Algeria',
+      imgPath: require('../assets/algeria.jpg'),
     },
   ];
   return (
