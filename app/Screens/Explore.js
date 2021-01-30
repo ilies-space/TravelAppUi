@@ -1,10 +1,11 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import HorizontalList from '../Components/HorizontalList';
 
 export default function Explore() {
   return (
     <View>
-      <Text>Explore</Text>
+      <HorizontalList />
     </View>
   );
 }
