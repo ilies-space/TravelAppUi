@@ -12,6 +12,7 @@ export default function Explore() {
     <View
       style={{
         backgroundColor: '#ecf0f1',
+        flex: 1,
       }}>
       {/* ----------------------------- */}
       <Header />

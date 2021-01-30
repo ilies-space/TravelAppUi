@@ -21,6 +21,7 @@ export default function Header() {
           <Text
             style={{
               fontWeight: 'bold',
+              fontSize: 17,
             }}>
             EXPLORE
           </Text>
