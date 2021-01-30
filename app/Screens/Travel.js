@@ -1,10 +1,14 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import Contribute from './Contribute';
 
 export default function Travel() {
   return (
-    <View>
-      <Text>Travel</Text>
+    <View
+      style={{
+        flex: 1,
+      }}>
+      <Contribute screen={'Travel'} />
     </View>
   );
 }

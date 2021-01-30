@@ -2,13 +2,28 @@ import React from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-export default function Contribute() {
+export default function Contribute({screen}) {
   return (
     <View
       style={{
         backgroundColor: '#c7ecee',
         flex: 1,
       }}>
+      <View
+        style={{
+          alignItems: 'center',
+          height: 50,
+          borderBottomWidth: 1,
+          justifyContent: 'center',
+          backgroundColor: 'white',
+        }}>
+        <Text
+          style={{
+            fontWeight: 'bold',
+          }}>
+          {screen} Screen
+        </Text>
+      </View>
       <View
         style={{
           flex: 1,

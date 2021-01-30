@@ -1,6 +1,5 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import {View} from 'react-native';
 import Contribute from './Contribute';
 
 export default function Profile() {
@@ -9,8 +8,7 @@ export default function Profile() {
       style={{
         flex: 1,
       }}>
-      <Text>profile</Text>
-      <Contribute />
+      <Contribute screen={'Profile'} />
     </View>
   );
 }
