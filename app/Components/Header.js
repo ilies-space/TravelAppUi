@@ -1,8 +1,10 @@
 import React from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Text, Image, TouchableOpacity} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import {useNavigation} from '@react-navigation/native';
 
 export default function Header() {
+  const navigation = useNavigation();
   return (
     <View
       style={{
@@ -49,14 +51,19 @@ export default function Header() {
             right: 0,
           }}
         />
-        <Image
-          style={{
-            height: 35,
-            width: 35,
-            borderRadius: 35 / 2,
-          }}
-          source={require('../assets/iliesOuldmenouer.jpg')}
-        />
+        <TouchableOpacity
+          onPress={() => {
+            navigation.navigate('Profile');
+          }}>
+          <Image
+            style={{
+              height: 35,
+              width: 35,
+              borderRadius: 35 / 2,
+            }}
+            source={require('../assets/iliesOuldmenouer.jpg')}
+          />
+        </TouchableOpacity>
       </View>
     </View>
   );

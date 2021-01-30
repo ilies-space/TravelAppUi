@@ -26,6 +26,7 @@ export default function BottomNavigation() {
         name="Explore"
         component={Explore}
       />
+
       <Tab.Screen
         options={{
           tabBarLabel: '',
@@ -37,8 +38,8 @@ export default function BottomNavigation() {
             />
           ),
         }}
-        name="Profile"
-        component={Profile}
+        name="Saved"
+        component={Saved}
       />
       <Tab.Screen
         options={{
@@ -47,8 +48,8 @@ export default function BottomNavigation() {
             <MaterialCommunityIcons name="airplane" color={color} size={size} />
           ),
         }}
-        name="Saved"
-        component={Saved}
+        name="Travel"
+        component={Travel}
       />
       <Tab.Screen
         options={{
@@ -61,8 +62,8 @@ export default function BottomNavigation() {
             />
           ),
         }}
-        name="Travel"
-        component={Travel}
+        name="Profile"
+        component={Profile}
       />
     </Tab.Navigator>
   );

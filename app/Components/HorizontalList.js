@@ -13,7 +13,7 @@ export default function HorizontalList() {
       imgPath: require('../assets/australia.jpg'),
     },
     {
-      title: 'antarctica',
+      title: 'Antarctica',
       imgPath: require('../assets/antarctica.jpg'),
     },
     {

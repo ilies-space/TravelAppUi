@@ -6,8 +6,12 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 export default function Recommendations() {
   const listOfCountries = [
     {
-      title: 'Algeria',
-      imgPath: require('../assets/algeria.jpg'),
+      title: 'Italy',
+      imgPath: require('../assets/italy.jpg'),
+    },
+    {
+      title: 'Maldive',
+      imgPath: require('../assets/maldive.jpg'),
     },
     {
       title: 'Norway',
@@ -16,10 +20,6 @@ export default function Recommendations() {
     {
       title: 'Seoul',
       imgPath: require('../assets/seoul.jpg'),
-    },
-    {
-      title: 'Maldive',
-      imgPath: require('../assets/maldive.jpg'),
     },
   ];
   return (
